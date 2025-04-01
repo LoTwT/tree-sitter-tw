@@ -34,7 +34,8 @@
     "start": "tree-sitter playground",
     "test": "node --test bindings/node/*_test.js",
     "generate": "tree-sitter generate",
-    "parse": "tree-sitter parse"
+    "parse": "tree-sitter parse",
+    "release": "pnpm prestart && bumpp && pnpm publish"
   },
   "dependencies": {
     "node-addon-api": "^8.3.1",
@@ -42,7 +43,9 @@
     "tree-sitter-css": "^0.23.2"
   },
   "devDependencies": {
+    "bumpp": "^10.1.0",
     "prebuildify": "^6.0.1",
+    "tinyexec": "^1.0.1",
     "tree-sitter-cli": "^0.25.3"
   },
   "peerDependencies": {
