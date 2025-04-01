@@ -2,7 +2,13 @@ import { defineConfig } from "bumpp";
 import { x } from "tinyexec";
 
 export default defineConfig({
-  execute(config) {
-    x("tree-sitter", ["version", config.state.newVersion]);
-  },
+  files: [
+    "package.json",
+    "Cargo.toml",
+    "Cargo.lock",
+    "CMakeLists.txt",
+    "Makefile",
+    "pyproject.toml",
+    "tree-sitter.json",
+  ],
 });
