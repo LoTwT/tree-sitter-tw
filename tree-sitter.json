@@ -1,0 +1,40 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "tw",
+      "camelcase": "Tw",
+      "title": "Tw",
+      "scope": "source.tw",
+      "file-types": [
+        "css"
+      ],
+      "injection-regex": "^tw$",
+      "class-name": "TreeSitterTw"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.0",
+    "license": "MIT",
+    "description": "Tw grammar for tree-sitter",
+    "authors": [
+      {
+        "name": "LoTwT",
+        "email": "l709937065@gmail.com",
+        "url": "https://github.com/LoTwT"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/LoTwT/tree-sitter-tw"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
