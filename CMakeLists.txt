@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13)
 
 project(tree-sitter-tw
-        VERSION "0.0.0"
+        VERSION "0.0.1"
         DESCRIPTION "Tw grammar for tree-sitter"
         HOMEPAGE_URL "https://github.com/lotwt/tree-sitter-tw"
         LANGUAGES C)

@@ -4,7 +4,7 @@ endif
 
 LANGUAGE_NAME := tree-sitter-tw
 HOMEPAGE_URL := https://github.com/lotwt/tree-sitter-tw
-VERSION := 0.0.0
+VERSION := 0.0.1
 
 # repository
 SRC_DIR := src

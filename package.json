@@ -1,6 +1,6 @@
 {
   "name": "tree-sitter-tw",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Tw grammar for tree-sitter",
   "packageManager": "pnpm@10.7.0",
   "repository": "https://github.com/lotwt/tree-sitter-tw",
