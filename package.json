@@ -45,7 +45,6 @@
   "devDependencies": {
     "bumpp": "^10.1.0",
     "prebuildify": "^6.0.1",
-    "tinyexec": "^1.0.1",
     "tree-sitter-cli": "^0.25.3"
   },
   "peerDependencies": {

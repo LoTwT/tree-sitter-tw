@@ -1,5 +1,4 @@
 import { defineConfig } from "bumpp";
-import { x } from "tinyexec";
 
 export default defineConfig({
   files: [
